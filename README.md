@@ -75,7 +75,7 @@ Se recorrieron 10 páginas de listado (~24 libros por página) para cubrir el ra
   a ninguna serie), por lo que hubo que definir un valor consistente (`"N/A"`) para los
   campos ausentes en lugar de dejarlos vacíos o con `NaN`.
 - Se agregaron pausas entre requests (`time.sleep`) para no saturar el servidor y evitar ser
-  bloqueados durante el recorrido de las ~170 fichas.
+  bloqueados durante el recorrido de las ~240 fichas.
 - Como los duplicados y las URLs inválidas solo se detectan durante la limpieza (no antes de
   visitar las fichas), `TOTAL_PAGINAS` en `scraper.py` se fijó con cierto margen por encima del
   mínimo pedido: es más barato extraer algunos links de más que arriesgarse a terminar por
