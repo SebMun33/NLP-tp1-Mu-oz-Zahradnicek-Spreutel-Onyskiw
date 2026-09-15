@@ -66,7 +66,7 @@ Se recorrieron 10 páginas de listado (~24 libros por página) para cubrir el ra
 - El sitio carga el listado de libros con contenido dinámico, por lo que fue necesario usar
   Playwright (en lugar de un simple `requests`) para poder renderizar la página antes de
   analizarla con BeautifulSoup.
-- Al recorrer ~170 fichas individuales, cualquier corte de conexión o timeout obligaba a
+- Al recorrer ~240 fichas individuales, cualquier corte de conexión o timeout obligaba a
   reiniciar todo el proceso desde el principio. Se resolvió agregando guardado incremental y
   checkpoints tanto para los links de la categoría (`data/links.txt`) como para los datos de
   cada libro (`data/libros_raw.csv`), de forma que el scraper pueda retomarse sin repetir
