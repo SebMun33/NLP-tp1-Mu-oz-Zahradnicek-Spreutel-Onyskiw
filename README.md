@@ -74,10 +74,6 @@ Se recorrieron 10 páginas de listado (~24 libros por página) para cubrir el ra
 - No todos los libros tienen todos los campos completos (por ejemplo, algunos no pertenecen
   a ninguna serie), por lo que hubo que definir un valor consistente (`"N/A"`) para los
   campos ausentes en lugar de dejarlos vacíos o con `NaN`.
-- Se detectó una inconsistencia en la consigna: la Parte 2 menciona un rango de "entre 50 y
-  100 fichas de libros", mientras que la Parte 1 pide extraer "entre 100 y 200 libros". Se
-  tomó como válido el rango de 100 a 200, y `limpiar_datos.py` recorta automáticamente el
-  resultado a lo sumo a `max_libros` si el scraping trajo de más.
 - Se agregaron pausas entre requests (`time.sleep`) para no saturar el servidor y evitar ser
   bloqueados durante el recorrido de las ~170 fichas.
 - Como los duplicados y las URLs inválidas solo se detectan durante la limpieza (no antes de
