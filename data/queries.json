@@ -1,0 +1,576 @@
+{
+  "corpus": "libros.csv — 200 libros de la categoría Ciencia ficción (Lectulandia)",
+  "identificador": "url_libro (único por libro; el índice de fila puede cambiar)",
+  "criterio_general": "Relevante: leyendo título y sinopsis, el tema de la consulta es central en el libro. Dudoso: el tema aparece de forma lateral, solo en uno de los relatos de una antología, o la sinopsis no alcanza para decidir. Se recomienda calcular precision@k de dos maneras: estricta (dudosos = no relevantes) y laxa (dudosos = relevantes).",
+  "fecha": "2026-10-04",
+  "consultas": [
+    {
+      "id": "q01",
+      "tipo": "tematica",
+      "consulta": "historias de viajes en el tiempo y paradojas temporales",
+      "criterio": "El desplazamiento en el tiempo (viajar al pasado o al futuro, visitantes de otra época, bucles temporales, alterar la línea temporal) es parte central del argumento.",
+      "relevantes": [
+        {
+          "titulo": "Viaje en el tiempo",
+          "url_libro": "https://ww3.lectulandia.co/book/viaje-en-el-tiempo/"
+        },
+        {
+          "titulo": "Un puente sobre el tiempo",
+          "url_libro": "https://ww3.lectulandia.co/book/un-puente-sobre-el-tiempo/"
+        },
+        {
+          "titulo": "Los viajeros de las gafas azules",
+          "url_libro": "https://ww3.lectulandia.co/book/los-viajeros-de-las-gafas-azules/"
+        },
+        {
+          "titulo": "Multiverso",
+          "url_libro": "https://ww3.lectulandia.co/book/multiverso-m-a-rothman/"
+        },
+        {
+          "titulo": "El volumen del tiempo II",
+          "url_libro": "https://ww3.lectulandia.co/book/el-volumen-del-tiempo-ii/"
+        },
+        {
+          "titulo": "El volumen del tiempo I",
+          "url_libro": "https://ww3.lectulandia.co/book/el-volumen-del-tiempo-i/"
+        },
+        {
+          "titulo": "Norby salva al universo",
+          "url_libro": "https://ww3.lectulandia.co/book/norby-salva-al-universo/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "Náufragos del anti-tiempo",
+          "url_libro": "https://ww3.lectulandia.co/book/naufragos-del-anti-tiempo/"
+        },
+        {
+          "titulo": "Cuentos completos",
+          "url_libro": "https://ww3.lectulandia.co/book/cuentos-completos-h-g-wells/"
+        },
+        {
+          "titulo": "Yo viví en el año 3000",
+          "url_libro": "https://ww3.lectulandia.co/book/yo-vivi-en-el-ano-3000/"
+        },
+        {
+          "titulo": "Los seis dedos del tiempo",
+          "url_libro": "https://ww3.lectulandia.co/book/los-seis-dedos-del-tiempo/"
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "tipo": "tematica",
+      "consulta": "seres de otro planeta que invaden la Tierra",
+      "criterio": "Una especie extraterrestre invade, ataca o amenaza con conquistar la Tierra, y eso es el conflicto principal.",
+      "relevantes": [
+        {
+          "titulo": "Los ladrones de cerebros",
+          "url_libro": "https://ww3.lectulandia.co/book/los-ladrones-de-cerebros/"
+        },
+        {
+          "titulo": "La guerra de los mundos (Ilustrado por Alvim Corrêa)",
+          "url_libro": "https://ww3.lectulandia.co/book/la-guerra-de-los-mundos-ilustrado-por-alvim-correa/"
+        },
+        {
+          "titulo": "Los comandos de la Humanidad",
+          "url_libro": "https://ww3.lectulandia.co/book/los-comandos-de-la-humanidad/"
+        },
+        {
+          "titulo": "El poder mental",
+          "url_libro": "https://ww3.lectulandia.co/book/el-poder-mental/"
+        },
+        {
+          "titulo": "Del naranja al azul",
+          "url_libro": "https://ww3.lectulandia.co/book/del-naranja-al-azul/"
+        },
+        {
+          "titulo": "La guerra de los mundos de Sherlock Holmes",
+          "url_libro": "https://ww3.lectulandia.co/book/la-guerra-de-los-mundos-de-sherlock-holmes/"
+        },
+        {
+          "titulo": "El bosque oscuro (Edición ilustrada)",
+          "url_libro": "https://ww3.lectulandia.co/book/el-bosque-oscuro-edicion-ilustrada/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "El problema de los Tres Cuerpos (Edición ilustrada)",
+          "url_libro": "https://ww3.lectulandia.co/book/el-problema-de-los-tres-cuerpos-edicion-ilustrada/"
+        },
+        {
+          "titulo": "El fin de la muerte (Edición ilustrada)",
+          "url_libro": "https://ww3.lectulandia.co/book/el-fin-de-la-muerte-edicion-ilustrada/"
+        },
+        {
+          "titulo": "La invasión de los ovoides",
+          "url_libro": "https://ww3.lectulandia.co/book/la-invasion-de-los-ovoides/"
+        },
+        {
+          "titulo": "Cuentos completos",
+          "url_libro": "https://ww3.lectulandia.co/book/cuentos-completos-h-g-wells/"
+        },
+        {
+          "titulo": "El mundo que forjamos",
+          "url_libro": "https://ww3.lectulandia.co/book/el-mundo-que-forjamos/"
+        },
+        {
+          "titulo": "¡Vaya planeta!",
+          "url_libro": "https://ww3.lectulandia.co/book/vaya-planeta/"
+        },
+        {
+          "titulo": "La guerra contra los Rull",
+          "url_libro": "https://ww3.lectulandia.co/book/la-guerra-contra-los-rull/"
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "tipo": "tematica",
+      "consulta": "regímenes totalitarios que vigilan y oprimen a la población",
+      "criterio": "La historia transcurre bajo un poder político que controla y somete a los ciudadanos (Estado, oligarquía o sistema que gobierna).",
+      "relevantes": [
+        {
+          "titulo": "1984 (Ilustrado)",
+          "url_libro": "https://ww3.lectulandia.co/book/1984-ilustrado/"
+        },
+        {
+          "titulo": "Moscú 1979",
+          "url_libro": "https://ww3.lectulandia.co/book/moscu-1979/"
+        },
+        {
+          "titulo": "El talón de hierro (ed. Jesús Isaías Gómez)",
+          "url_libro": "https://ww3.lectulandia.co/book/el-talon-de-hierro-ed-jesus-isaias-gomez/"
+        },
+        {
+          "titulo": "Los creadores del mundo",
+          "url_libro": "https://ww3.lectulandia.co/book/los-creadores-del-mundo/"
+        },
+        {
+          "titulo": "Amanecer en la cosecha",
+          "url_libro": "https://ww3.lectulandia.co/book/amanecer-en-la-cosecha/"
+        },
+        {
+          "titulo": "Balada de pájaros cantores y serpientes",
+          "url_libro": "https://ww3.lectulandia.co/book/balada-de-pajaros-cantores-y-serpientes/"
+        },
+        {
+          "titulo": "Las sendas púrpuras",
+          "url_libro": "https://ww3.lectulandia.co/book/las-sendas-purpuras/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "La máquina se detiene",
+          "url_libro": "https://ww3.lectulandia.co/book/la-maquina-se-detiene/"
+        },
+        {
+          "titulo": "Khimera",
+          "url_libro": "https://ww3.lectulandia.co/book/khimera/"
+        },
+        {
+          "titulo": "Los fabricantes de armas",
+          "url_libro": "https://ww3.lectulandia.co/book/los-fabricantes-de-armas/"
+        },
+        {
+          "titulo": "Ahora todo es mejor",
+          "url_libro": "https://ww3.lectulandia.co/book/ahora-todo-es-mejor/"
+        },
+        {
+          "titulo": "Radicalizado",
+          "url_libro": "https://ww3.lectulandia.co/book/radicalizado/"
+        },
+        {
+          "titulo": "Poshumanas y distópicas Vol. 2",
+          "url_libro": "https://ww3.lectulandia.co/book/poshumanas-y-distopicas-vol-2/"
+        },
+        {
+          "titulo": "Poshumanas y distópicas Vol. 1",
+          "url_libro": "https://ww3.lectulandia.co/book/poshumanas-y-distopicas-vol-1/"
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "tipo": "tematica",
+      "consulta": "la vida de los sobrevivientes después de una catástrofe que destruyó la civilización",
+      "criterio": "El mundo ya fue devastado (guerra, plaga, cataclismo) y el relato se ocupa de quienes sobreviven en ese mundo.",
+      "relevantes": [
+        {
+          "titulo": "La peste escarlata (Ilustrado)",
+          "url_libro": "https://ww3.lectulandia.co/book/la-peste-escarlata-ilustrado/"
+        },
+        {
+          "titulo": "Después del fin",
+          "url_libro": "https://ww3.lectulandia.co/book/despues-del-fin/"
+        },
+        {
+          "titulo": "A cabeza descalza",
+          "url_libro": "https://ww3.lectulandia.co/book/a-cabeza-descalza/"
+        },
+        {
+          "titulo": "EI huracán cósmico",
+          "url_libro": "https://ww3.lectulandia.co/book/ei-huracan-cosmico/"
+        },
+        {
+          "titulo": "La máquina de matar",
+          "url_libro": "https://ww3.lectulandia.co/book/la-maquina-de-matar-juan-g-atienza/"
+        },
+        {
+          "titulo": "Una rosa en el paraíso",
+          "url_libro": "https://ww3.lectulandia.co/book/una-rosa-en-el-paraiso/"
+        },
+        {
+          "titulo": "Noventa millones de soles",
+          "url_libro": "https://ww3.lectulandia.co/book/noventa-millones-de-soles/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "Ningún tiempo como el futuro",
+          "url_libro": "https://ww3.lectulandia.co/book/ningun-tiempo-como-el-futuro/"
+        },
+        {
+          "titulo": "El último policía",
+          "url_libro": "https://ww3.lectulandia.co/book/el-ultimo-policia/"
+        },
+        {
+          "titulo": "Cuando el Sol se apague",
+          "url_libro": "https://ww3.lectulandia.co/book/cuando-el-sol-se-apague/"
+        },
+        {
+          "titulo": "Los creadores del mundo",
+          "url_libro": "https://ww3.lectulandia.co/book/los-creadores-del-mundo/"
+        },
+        {
+          "titulo": "Herederos del recuerdo",
+          "url_libro": "https://ww3.lectulandia.co/book/herederos-del-recuerdo/"
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "tipo": "sin_solapamiento_lexico",
+      "consulta": "autómatas con voluntad e identidad",
+      "criterio": "Un robot, androide o inteligencia artificial desarrolla conciencia, deseos o una identidad propia. Redactada a propósito sin ninguna palabra (ni raíz de 5 letras) en común con los títulos y sinopsis de los relevantes.",
+      "relevantes": [
+        {
+          "titulo": "Protocolo rebelde",
+          "url_libro": "https://ww3.lectulandia.co/book/protocolo-rebelde/"
+        },
+        {
+          "titulo": "Sistemas críticos (trad. Carlos Loscertales)",
+          "url_libro": "https://ww3.lectulandia.co/book/sistemas-criticos-trad-carlos-loscertales/"
+        },
+        {
+          "titulo": "Condición artificial (trad. Carlos Loscertales)",
+          "url_libro": "https://ww3.lectulandia.co/book/condicion-artificial-trad-carlos-loscertales/"
+        },
+        {
+          "titulo": "El hombre bicentenario",
+          "url_libro": "https://ww3.lectulandia.co/book/el-hombre-bicentenario/"
+        },
+        {
+          "titulo": "El hombre bicentenario y otros cuentos",
+          "url_libro": "https://ww3.lectulandia.co/book/el-hombre-bicentenario-y-otros-cuentos/"
+        },
+        {
+          "titulo": "El robot que vivía su vida",
+          "url_libro": "https://ww3.lectulandia.co/book/el-robot-que-vivia-su-vida/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "La gran aventura de Norby",
+          "url_libro": "https://ww3.lectulandia.co/book/la-gran-aventura-de-norby/"
+        },
+        {
+          "titulo": "Norby regresa a la Tierra",
+          "url_libro": "https://ww3.lectulandia.co/book/norby-regresa-a-la-tierra/"
+        },
+        {
+          "titulo": "La utopía de Turing",
+          "url_libro": "https://ww3.lectulandia.co/book/la-utopia-de-turing/"
+        },
+        {
+          "titulo": "El gran espectáculo",
+          "url_libro": "https://ww3.lectulandia.co/book/el-gran-espectaculo/"
+        },
+        {
+          "titulo": "Animales difíciles",
+          "url_libro": "https://ww3.lectulandia.co/book/animales-dificiles/"
+        },
+        {
+          "titulo": "How-2",
+          "url_libro": "https://ww3.lectulandia.co/book/how-2/"
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "tipo": "tematica",
+      "consulta": "la humanidad viaja en naves hacia otro planeta para fundar un nuevo hogar",
+      "criterio": "Un grupo humano (o una civilización) abandona su mundo y viaja por el espacio para establecerse en otro planeta, o ya vive como colonia en él.",
+      "relevantes": [
+        {
+          "titulo": "Takarabune",
+          "url_libro": "https://ww3.lectulandia.co/book/takarabune/"
+        },
+        {
+          "titulo": "Herederos del recuerdo",
+          "url_libro": "https://ww3.lectulandia.co/book/herederos-del-recuerdo/"
+        },
+        {
+          "titulo": "La última luz de Traila",
+          "url_libro": "https://ww3.lectulandia.co/book/la-ultima-luz-de-traila/"
+        },
+        {
+          "titulo": "Los creadores del mundo",
+          "url_libro": "https://ww3.lectulandia.co/book/los-creadores-del-mundo/"
+        },
+        {
+          "titulo": "La guerra de las salamandras",
+          "url_libro": "https://ww3.lectulandia.co/book/la-guerra-de-las-salamandras-charles-carr/"
+        },
+        {
+          "titulo": "Yo viví en el año 3000",
+          "url_libro": "https://ww3.lectulandia.co/book/yo-vivi-en-el-ano-3000/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "Herederos del Caos",
+          "url_libro": "https://ww3.lectulandia.co/book/herederos-del-caos/"
+        },
+        {
+          "titulo": "Escuadrón: La saga",
+          "url_libro": "https://ww3.lectulandia.co/book/escuadron-la-saga/"
+        },
+        {
+          "titulo": "Un paraíso llamado Ara",
+          "url_libro": "https://ww3.lectulandia.co/book/un-paraiso-llamado-ara/"
+        },
+        {
+          "titulo": "De los Andes al cielo",
+          "url_libro": "https://ww3.lectulandia.co/book/de-los-andes-al-cielo/"
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "tipo": "tematica",
+      "consulta": "primer encuentro y comunicación con una inteligencia alienígena",
+      "criterio": "El centro del relato es el contacto con una inteligencia no humana: descubrirla, intentar entenderla o comunicarse con ella (no una guerra de invasión).",
+      "relevantes": [
+        {
+          "titulo": "El problema de los Tres Cuerpos (Edición ilustrada)",
+          "url_libro": "https://ww3.lectulandia.co/book/el-problema-de-los-tres-cuerpos-edicion-ilustrada/"
+        },
+        {
+          "titulo": "¡Vaya planeta!",
+          "url_libro": "https://ww3.lectulandia.co/book/vaya-planeta/"
+        },
+        {
+          "titulo": "Intermnemosis",
+          "url_libro": "https://ww3.lectulandia.co/book/intermnemosis/"
+        },
+        {
+          "titulo": "La voz del espacio",
+          "url_libro": "https://ww3.lectulandia.co/book/la-voz-del-espacio/"
+        },
+        {
+          "titulo": "Ruido fractal",
+          "url_libro": "https://ww3.lectulandia.co/book/ruido-fractal/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "Una mirada a Alice B. Sheldon",
+          "url_libro": "https://ww3.lectulandia.co/book/una-mirada-a-alice-b-sheldon/"
+        },
+        {
+          "titulo": "El gran espectáculo",
+          "url_libro": "https://ww3.lectulandia.co/book/el-gran-espectaculo/"
+        },
+        {
+          "titulo": "Los hombres de Gor",
+          "url_libro": "https://ww3.lectulandia.co/book/los-hombres-de-gor/"
+        },
+        {
+          "titulo": "Señales desde las estrellas",
+          "url_libro": "https://ww3.lectulandia.co/book/senales-desde-las-estrellas/"
+        },
+        {
+          "titulo": "Nucleogénesis / Déuteros",
+          "url_libro": "https://ww3.lectulandia.co/book/nucleogenesis-deuteros/"
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "tipo": "tematica",
+      "consulta": "seres humanos modificados genéticamente o mejorados más allá de sus límites",
+      "criterio": "Un protagonista humano fue alterado (genética, biología, metabolismo) y sus capacidades superan las humanas normales.",
+      "relevantes": [
+        {
+          "titulo": "Actualización",
+          "url_libro": "https://ww3.lectulandia.co/book/actualizacion/"
+        },
+        {
+          "titulo": "Hipernautas",
+          "url_libro": "https://ww3.lectulandia.co/book/hipernautas/"
+        },
+        {
+          "titulo": "Máquina de guerra",
+          "url_libro": "https://ww3.lectulandia.co/book/maquina-de-guerra/"
+        },
+        {
+          "titulo": "El planeta Argentia",
+          "url_libro": "https://ww3.lectulandia.co/book/el-planeta-argentia/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "Khimera",
+          "url_libro": "https://ww3.lectulandia.co/book/khimera/"
+        },
+        {
+          "titulo": "Animales difíciles",
+          "url_libro": "https://ww3.lectulandia.co/book/animales-dificiles/"
+        },
+        {
+          "titulo": "Poshumanas y distópicas Vol. 2",
+          "url_libro": "https://ww3.lectulandia.co/book/poshumanas-y-distopicas-vol-2/"
+        },
+        {
+          "titulo": "Poshumanas y distópicas Vol. 1",
+          "url_libro": "https://ww3.lectulandia.co/book/poshumanas-y-distopicas-vol-1/"
+        },
+        {
+          "titulo": "Noventa millones de soles",
+          "url_libro": "https://ww3.lectulandia.co/book/noventa-millones-de-soles/"
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "tipo": "tematica",
+      "consulta": "expediciones científicas a lugares remotos de la Tierra que descubren algo inquietante",
+      "criterio": "Un equipo viaja a un lugar aislado del planeta (Antártida, fondo del mar, selva, montañas) y encuentra algo que desata el conflicto.",
+      "relevantes": [
+        {
+          "titulo": "Base Purgatorio",
+          "url_libro": "https://ww3.lectulandia.co/book/base-purgatorio/"
+        },
+        {
+          "titulo": "Abisal",
+          "url_libro": "https://ww3.lectulandia.co/book/abisal/"
+        },
+        {
+          "titulo": "Abominación atlántica",
+          "url_libro": "https://ww3.lectulandia.co/book/abominacion-atlantica/"
+        },
+        {
+          "titulo": "Espécimen 8",
+          "url_libro": "https://ww3.lectulandia.co/book/especimen-8/"
+        },
+        {
+          "titulo": "El fósil 1",
+          "url_libro": "https://ww3.lectulandia.co/book/el-fosil-1/"
+        },
+        {
+          "titulo": "El mundo perdido (trad. Amando Lázaro Ros)",
+          "url_libro": "https://ww3.lectulandia.co/book/el-mundo-perdido-trad-amando-lazaro-ros/"
+        },
+        {
+          "titulo": "Tótem",
+          "url_libro": "https://ww3.lectulandia.co/book/totem/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "Expedición Atticus",
+          "url_libro": "https://ww3.lectulandia.co/book/expedicion-atticus/"
+        },
+        {
+          "titulo": "Entre dinosaurios",
+          "url_libro": "https://ww3.lectulandia.co/book/entre-dinosaurios/"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "tipo": "sin_solapamiento_lexico",
+      "consulta": "comedias desopilantes para reír a carcajadas",
+      "criterio": "Libros cuyo propósito principal es humorístico (sátira, parodia, disparate). Redactada sin ninguna palabra (ni raíz de 5 letras) en común con los relevantes; ninguna de sus palabras aparece en el corpus.",
+      "relevantes": [
+        {
+          "titulo": "Bill, el héroe galáctico. ¡El final de la epopeya!",
+          "url_libro": "https://ww3.lectulandia.co/book/bill-el-heroe-galactico-el-final-de-la-epopeya/"
+        },
+        {
+          "titulo": "Bill, el héroe galáctico en el planeta de los placeres insípidos",
+          "url_libro": "https://ww3.lectulandia.co/book/bill-el-heroe-galactico-en-el-planeta-de-los-placeres-insipidos/"
+        },
+        {
+          "titulo": "Bill, el héroe galáctico en el planeta de los vampiros zombis",
+          "url_libro": "https://ww3.lectulandia.co/book/bill-el-heroe-galactico-en-el-planeta-de-los-vampiros-zombis/"
+        },
+        {
+          "titulo": "Bill, el héroe galáctico en el planeta de los diez mil bares",
+          "url_libro": "https://ww3.lectulandia.co/book/bill-el-heroe-galactico-en-el-planeta-de-los-diez-mil-bares/"
+        },
+        {
+          "titulo": "Bill, el héroe galáctico en el planeta de los esclavos robot",
+          "url_libro": "https://ww3.lectulandia.co/book/bill-el-heroe-galactico-en-el-planeta-de-los-esclavos-robot/"
+        },
+        {
+          "titulo": "La gran cruzada",
+          "url_libro": "https://ww3.lectulandia.co/book/la-gran-cruzada/"
+        },
+        {
+          "titulo": "¡Vaya planeta!",
+          "url_libro": "https://ww3.lectulandia.co/book/vaya-planeta/"
+        }
+      ],
+      "dudosos": [
+        {
+          "titulo": "La gran aventura de Norby",
+          "url_libro": "https://ww3.lectulandia.co/book/la-gran-aventura-de-norby/"
+        },
+        {
+          "titulo": "Norby regresa a la Tierra",
+          "url_libro": "https://ww3.lectulandia.co/book/norby-regresa-a-la-tierra/"
+        },
+        {
+          "titulo": "El libro de cocina del anarquista de la mazmorra",
+          "url_libro": "https://ww3.lectulandia.co/book/el-libro-de-cocina-del-anarquista-de-la-mazmorra/"
+        },
+        {
+          "titulo": "El Juicio Final de Carl",
+          "url_libro": "https://ww3.lectulandia.co/book/el-juicio-final-de-carl/"
+        },
+        {
+          "titulo": "Carl el Mazmorrero",
+          "url_libro": "https://ww3.lectulandia.co/book/carl-el-mazmorrero/"
+        },
+        {
+          "titulo": "Neon Velvet",
+          "url_libro": "https://ww3.lectulandia.co/book/neon-velvet/"
+        },
+        {
+          "titulo": "Pansexualactic",
+          "url_libro": "https://ww3.lectulandia.co/book/pansexualactic/"
+        },
+        {
+          "titulo": "La otra cara de la luna",
+          "url_libro": "https://ww3.lectulandia.co/book/la-otra-cara-de-la-luna-fil-norstad/"
+        },
+        {
+          "titulo": "Un puente sobre el tiempo",
+          "url_libro": "https://ww3.lectulandia.co/book/un-puente-sobre-el-tiempo/"
+        }
+      ]
+    }
+  ]
+}
